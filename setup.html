@@ -6,13 +6,31 @@
     <script src="resources/script.js"></script>
   </head>
   <body>
-    <h1> HISAAB </h1>
+    <h2> HISAAB </h2>
     <h3> An Awesome Accounting App <h3>
+    <hr>
+    "Setup Group"
+    <hr>
 
-    <button type="button" onclick="location.href='setup.html'">Setup Group</button>
-    <button type="button">Manage Account</button>
-    <button type="button">About</button>
-    
+    <form>
+        <br/>
+        Group Name : <input id="gName" type="text" placeholder="Roommates"></input>
+        <br/>
+        Members &nbsp &nbsp &nbsp : <input id="gCount" type="number" onblur="createDom()" value="2"></input>
+        <br/>
+      <div id="panel2">
+        <br/>
+        Member 1  : <input type="text" placeholder="Name"></input>
+        <br/>
+        Member 2  : <input type="text"  placeholder="Name"></input>
+      </div>
+      <br/>
+      <div class="cent">
+        <button type="button" onclick="">Ceate Group</button>
+        <button type="button" onclick="location.href='index.html'">Back to Dashboard</button>
+      </div>
+    </form>
+
     <form>
       <!--
           Banda No <input type="text" name="bNo" id="bNo"/><br>

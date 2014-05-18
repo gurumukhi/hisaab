@@ -1,0 +1,45 @@
+body{
+	text-align: center;
+	color: teal;
+	font-family: calibri;
+	background-color: white;
+}
+
+button{
+	width:60%;
+	height:40px;
+	margin-top:20px;
+}
+
+h2{
+	margin-top:0px;
+	margin-bottom: -20px;
+}
+
+hr{
+	margin: 0 0 0 0;
+}
+
+form{
+	padding-left: 5px;
+	text-align: left;
+}
+
+#gName, #gCount{
+	font-size: 14px;
+	color: teal;
+	width:50%;
+	border: 1px solid gray;
+}
+
+#gCount{
+	width:30%;
+}
+
+input{
+	text-align: center;
+}
+
+.cent{
+	text-align: center;
+}
